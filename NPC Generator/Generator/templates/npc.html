@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NPC Generator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>{{ npc.Name }}</h1>
+    <p>Race: {{ npc.Race }}</p>
+    <p>Profession: {{ npc.Profession }}</p>
+    <p>Alignment: {{ npc.Alignment }}</p>
+    <p>Backstory: {{ npc.Backstory }}</p>
+    <p>Physical Features: {{ npc['Physical Features']|join(', ') }}</p>
+    <p>Quirks: {{ npc.Quirks|join(', ') }}</p>
+    <p>Attributes:</p>
+    <ul>
+        {% for attr, value in npc.Attributes.items() %}
+            <li>{{ attr }}: {{ value }}</li>
+        {% endfor %}
+    </ul>
+    <p>Skills: {{ npc.Skills|join(', ') }}</p>
+    <p>Equipment:</p>
+    <ul>
+    {% for category, item in npc.Equipment.items() %}
+        <li>{{ category }}: {{ item }}</li>
+    {% endfor %}
+    </ul>
+    <p>Physical Description:</p>
+    <ul>
+        <li>Height: {{ npc['Physical Description']['Height'] }}</li>
+        <li>Weight: {{ npc['Physical Description']['Weight'] }}</li>
+        <li>Hair Color: {{ npc['Physical Description']['Hair Color'] }}</li>
+        <li>Eye Color: {{ npc['Physical Description']['Eye Color'] }}</li>
+        <li>Skin Color: {{ npc['Physical Description']['Skin Color'] }}</li>
+    </ul>    
+</body>
+</html>

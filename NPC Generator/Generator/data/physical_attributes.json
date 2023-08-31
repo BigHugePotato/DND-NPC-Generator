@@ -1,0 +1,728 @@
+[
+    {
+    "Race": "Human",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.8, "MaxHeight": 5.6},
+    {"Type": "Average", "MinHeight": 5.7, "MaxHeight": 6.2},
+    {"Type": "Tall", "MinHeight": 6.3, "MaxHeight": 6.8}
+    ],
+    "Weight": ["Light", "Average", "Heavy"],
+    "HairColor": ["Black", "Brown", "Blonde", "Red", "Gray", "Bald"],
+    "EyeColor": ["Blue", "Green", "Brown", "Gray", "Black"],
+    "SkinColor": ["Pale", "Fair", "Olive", "Brown", "Dark"]
+    },
+    {
+    "Race": "Elf",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.5, "MaxHeight": 5.2},
+    {"Type": "Average", "MinHeight": 5.3, "MaxHeight": 6.0},
+    {"Type": "Tall", "MinHeight": 6.1, "MaxHeight": 6.6}
+    ],
+    "Weight": ["Slender", "Lean"],
+    "HairColor": ["Black", "Brown", "Blonde", "Red", "Silver", "White"],
+    "EyeColor": ["Green", "Blue", "Gray"],
+    "SkinColor": ["Pale", "Fair"]
+    },
+    {
+    "Race": "Dwarf",
+    "Height": [
+    {"Type": "Short", "MinHeight": 3.9, "MaxHeight": 4.6},
+    {"Type": "Average", "MinHeight": 4.7, "MaxHeight": 5.3},
+    {"Type": "Stocky", "MinHeight": 5.4, "MaxHeight": 6.0}
+    ],
+    "Weight": ["Heavy", "Solid", "Muscular"],
+    "HairColor": ["Black", "Brown", "Red", "Blonde", "Gray", "White"],
+    "EyeColor": ["Brown", "Blue", "Green", "Hazel"],
+    "SkinColor": ["Pale", "Fair", "Tan"]
+    },
+    {
+    "Race": "Gnome",
+    "Height": [
+    {"Type": "Short", "MinHeight": 3.0, "MaxHeight": 3.6},
+    {"Type": "Average", "MinHeight": 3.7, "MaxHeight": 4.2},
+    {"Type": "Small", "MinHeight": 4.3, "MaxHeight": 4.8}
+    ],
+    "Weight": ["Light", "Average", "Plump"],
+    "HairColor": ["Black", "Brown", "Blonde", "Red", "Gray"],
+    "EyeColor": ["Blue", "Green", "Brown", "Hazel"],
+    "SkinColor": ["Pale", "Fair", "Rosy"]
+    },
+    {
+    "Race": "Halfling",
+    "Height": [
+    {"Type": "Short", "MinHeight": 2.7, "MaxHeight": 3.3},
+    {"Type": "Average", "MinHeight": 3.4, "MaxHeight": 4.0},
+    {"Type": "Small", "MinHeight": 4.1, "MaxHeight": 4.7}
+    ],
+    "Weight": ["Light", "Average", "Plump"],
+    "HairColor": ["Black", "Brown", "Blonde", "Red", "Gray"],
+    "EyeColor": ["Blue", "Green", "Brown"],
+    "SkinColor": ["Pale", "Fair", "Tanned"]
+    },
+    {
+    "Race": "Half-Elf",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.9, "MaxHeight": 5.6},
+    {"Type": "Average", "MinHeight": 5.7, "MaxHeight": 6.4},
+    {"Type": "Tall", "MinHeight": 6.5, "MaxHeight": 7.2}
+    ],
+    "Weight": ["Light", "Average", "Heavy"],
+    "HairColor": ["Black", "Brown", "Blonde", "Red"],
+    "EyeColor": ["Blue", "Green", "Brown", "Hazel", "Gray"],
+    "SkinColor": ["Pale", "Fair", "Olive", "Tan"]
+    },
+    {
+    "Race": "Half-Orc",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.0},
+    {"Type": "Average", "MinHeight": 6.1, "MaxHeight": 6.6},
+    {"Type": "Tall", "MinHeight": 6.7, "MaxHeight": 7.2}
+    ],
+    "Weight": ["Muscular", "Solid", "Heavy"],
+    "HairColor": ["Black", "Brown", "Gray"],
+    "EyeColor": ["Brown", "Hazel", "Red"],
+    "SkinColor": ["Green", "Gray", "Pale"]
+    },
+    {
+    "Race": "Dragonborn",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.2},
+    {"Type": "Average", "MinHeight": 6.3, "MaxHeight": 7.0},
+    {"Type": "Tall", "MinHeight": 7.1, "MaxHeight": 7.8}
+    ],
+    "Weight": ["Lean", "Muscular"],
+    "HairColor": ["Black", "Red", "Blue", "Green", "White", "Gold", "Silver"],
+    "EyeColor": ["Red", "Gold", "Blue", "Green", "Amber"],
+    "SkinColor": ["Red", "Blue", "Green", "White", "Gold", "Silver", "Bronze"]
+    },
+    {
+    "Race": "Tiefling",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.8, "MaxHeight": 5.6},
+    {"Type": "Average", "MinHeight": 5.7, "MaxHeight": 6.3},
+    {"Type": "Tall", "MinHeight": 6.4, "MaxHeight": 7.2}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Black", "Brown", "Red", "White"],
+    "EyeColor": ["Red", "Orange", "Yellow", "Purple"],
+    "SkinColor": ["Red", "Purple", "Blue", "Gray"]
+    },
+    {
+    "Race": "Aasimar",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.4, "MaxHeight": 6.0},
+    {"Type": "Average", "MinHeight": 6.1, "MaxHeight": 6.8},
+    {"Type": "Tall", "MinHeight": 6.9, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["Black", "Brown", "Blonde", "White", "Silver", "Gold"],
+    "EyeColor": ["Blue", "Green", "Hazel"],
+    "SkinColor": ["Pale", "Fair", "Light tan"]
+    },
+    {
+    "Race": "Orc",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.3, "MaxHeight": 5.9},
+    {"Type": "Average", "MinHeight": 6.0, "MaxHeight": 6.6},
+    {"Type": "Tall", "MinHeight": 6.7, "MaxHeight": 7.3}
+    ],
+    "Weight": ["Muscular", "Solid"],
+    "HairColor": ["Black", "Brown", "Gray"],
+    "EyeColor": ["Red", "Brown", "Amber"],
+    "SkinColor": ["Green", "Gray", "Brown"]
+    },
+    {
+    "Race": "Goliath",
+    "Height": [
+    {"Type": "Short", "MinHeight": 6.2, "MaxHeight": 6.8},
+    {"Type": "Average", "MinHeight": 6.9, "MaxHeight": 7.5},
+    {"Type": "Tall", "MinHeight": 7.6, "MaxHeight": 8.2}
+    ],
+    "Weight": ["Muscular", "Solid"],
+    "HairColor": ["Black", "Brown", "Gray"],
+    "EyeColor": ["Blue", "Green", "Gray"],
+    "SkinColor": ["Pale", "Fair", "Light tan"]
+    },
+    {
+    "Race": "Firbolg",
+    "Height": [
+    {"Type": "Short", "MinHeight": 6.1, "MaxHeight": 6.7},
+    {"Type": "Average", "MinHeight": 6.8, "MaxHeight": 7.4},
+    {"Type": "Tall", "MinHeight": 7.5, "MaxHeight": 8.1}
+    ],
+    "Weight": ["Muscular", "Solid"],
+    "HairColor": ["Brown", "Red", "Blonde", "Black"],
+    "EyeColor": ["Green", "Brown", "Hazel"],
+    "SkinColor": ["Fair", "Tan"]
+    },
+    {
+    "Race": "Genasi",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.4, "MaxHeight": 6.0},
+    {"Type": "Average", "MinHeight": 6.1, "MaxHeight": 6.8},
+    {"Type": "Tall", "MinHeight": 6.9, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Lean", "Muscular"],
+    "HairColor": ["Black", "Brown", "Red", "White", "Gray"],
+    "EyeColor": ["Blue", "Green", "Brown"],
+    "SkinColor": ["Blue", "Green", "Red", "Yellow", "Brown"]
+    },
+
+    {
+    "Race": "Kenku",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.5, "MaxHeight": 5.0},
+    {"Type": "Average", "MinHeight": 5.1, "MaxHeight": 5.6},
+    {"Type": "Tall", "MinHeight": 5.7, "MaxHeight": 6.2}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["Black", "Gray"],
+    "EyeColor": ["Black"],
+    "SkinColor": ["Pale", "Gray"]
+    },
+    {
+    "Race": "Tabaxi",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.8, "MaxHeight": 5.4},
+    {"Type": "Average", "MinHeight": 5.5, "MaxHeight": 6.1},
+    {"Type": "Tall", "MinHeight": 6.2, "MaxHeight": 6.8}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["Spotted", "Striped"],
+    "EyeColor": ["Amber", "Green", "Blue"],
+    "SkinColor": ["Furry", "Spotted"]
+    },
+    {
+    "Race": "Tortle",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.5, "MaxHeight": 5.1},
+    {"Type": "Average", "MinHeight": 5.2, "MaxHeight": 5.8},
+    {"Type": "Tall", "MinHeight": 5.9, "MaxHeight": 6.5}
+    ],
+    "Weight": ["Heavy", "Solid"],
+    "HairColor": ["None"],
+    "EyeColor": ["Black", "Brown"],
+    "SkinColor": ["Green", "Brown", "Gray"]
+    },
+    {
+    "Race": "Aarakocra",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.6, "MaxHeight": 5.2},
+    {"Type": "Average", "MinHeight": 5.3, "MaxHeight": 5.9},
+    {"Type": "Tall", "MinHeight": 6.0, "MaxHeight": 6.6}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["Feathers: Brown", "Feathers: Black", "Feathers: White"],
+    "EyeColor": ["Black", "Brown", "Yellow"],
+    "SkinColor": ["Feathers: Brown", "Feathers: Black", "Feathers: White"]
+    },
+    {
+    "Race": "Goblin",
+    "Height": [
+    {"Type": "Short", "MinHeight": 3.5, "MaxHeight": 4.1},
+    {"Type": "Average", "MinHeight": 4.2, "MaxHeight": 4.8},
+    {"Type": "Tall", "MinHeight": 4.9, "MaxHeight": 5.5}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["Green", "Yellow", "Brown"],
+    "EyeColor": ["Red", "Yellow"],
+    "SkinColor": ["Green"]
+    },
+    {
+    "Race": "Hobgoblin",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.1},
+    {"Type": "Average", "MinHeight": 6.2, "MaxHeight": 6.7},
+    {"Type": "Tall", "MinHeight": 6.8, "MaxHeight": 7.3}
+    ],
+    "Weight": ["Muscular", "Solid"],
+    "HairColor": ["Black", "Dark Brown", "Red"],
+    "EyeColor": ["Red", "Yellow", "Orange"],
+    "SkinColor": ["Red", "Brown", "Gray"]
+    },
+    {
+    "Race": "Bugbear",
+    "Height": [
+    {"Type": "Short", "MinHeight": 6.0, "MaxHeight": 6.6},
+    {"Type": "Average", "MinHeight": 6.7, "MaxHeight": 7.3},
+    {"Type": "Tall", "MinHeight": 7.4, "MaxHeight": 8.0}
+    ],
+    "Weight": ["Muscular", "Solid"],
+    "HairColor": ["Black", "Brown", "Gray"],
+    "EyeColor": ["Red", "Yellow", "Green"],
+    "SkinColor": ["Gray", "Brown", "Green"]
+    },
+    {
+    "Race": "Kobold",
+    "Height": [
+    {"Type": "Short", "MinHeight": 2.6, "MaxHeight": 3.2},
+    {"Type": "Average", "MinHeight": 3.3, "MaxHeight": 3.9},
+    {"Type": "Tall", "MinHeight": 4.0, "MaxHeight": 4.6}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["Brown", "Black"],
+    "EyeColor": ["Red", "Yellow"],
+    "SkinColor": ["Scales: Brown", "Scales: Black", "Scales: Red"]
+    },
+    {
+    "Race": "Lizardfolk",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.5, "MaxHeight": 6.1},
+    {"Type": "Average", "MinHeight": 6.2, "MaxHeight": 6.8},
+    {"Type": "Tall", "MinHeight": 6.9, "MaxHeight": 7.5}
+    ],
+    "Weight": ["Lean", "Muscular"],
+    "HairColor": ["None"],
+    "EyeColor": ["Yellow", "Orange", "Amber"],
+    "SkinColor": ["Scales: Green", "Scales: Brown", "Scales: Gray"]
+    },
+    {
+    "Race": "Yuan-ti Pureblood",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.2},
+    {"Type": "Average", "MinHeight": 6.3, "MaxHeight": 6.9},
+    {"Type": "Tall", "MinHeight": 7.0, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Lean", "Muscular"],
+    "HairColor": ["None"],
+    "EyeColor": ["Yellow", "Amber", "Red"],
+    "SkinColor": ["Scales: Green", "Scales: Brown", "Scales: Gray"]
+    },
+    {
+    "Race": "Trident",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.4, "MaxHeight": 6.0},
+    {"Type": "Average", "MinHeight": 6.1, "MaxHeight": 6.8},
+    {"Type": "Tall", "MinHeight": 6.9, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Lean", "Muscular"],
+    "HairColor": ["Brown", "Black"],
+    "EyeColor": ["Blue", "Green", "Brown"],
+    "SkinColor": ["Pale", "Tan"]
+    },
+    {
+    "Race": "Merfolk",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.8, "MaxHeight": 5.4},
+    {"Type": "Average", "MinHeight": 5.5, "MaxHeight": 6.1},
+    {"Type": "Tall", "MinHeight": 6.2, "MaxHeight": 6.8}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["Blue", "Green", "Silver"],
+    "EyeColor": ["Blue", "Green"],
+    "SkinColor": ["Blue", "Green"]
+    },
+    {
+    "Race": "Satyr",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.5, "MaxHeight": 5.1},
+    {"Type": "Average", "MinHeight": 5.2, "MaxHeight": 5.8},
+    {"Type": "Tall", "MinHeight": 5.9, "MaxHeight": 6.5}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["Brown", "Red", "Blonde"],
+    "EyeColor": ["Brown", "Hazel"],
+    "SkinColor": ["Fair", "Light tan"]
+    },
+    {
+    "Race": "Minotaur",
+    "Height": [
+    {"Type": "Short", "MinHeight": 6.2, "MaxHeight": 6.8},
+    {"Type": "Average", "MinHeight": 6.9, "MaxHeight": 7.5},
+    {"Type": "Tall", "MinHeight": 7.6, "MaxHeight": 8.2}
+    ],
+    "Weight": ["Muscular", "Solid"],
+    "HairColor": ["Brown", "Black"],
+    "EyeColor": ["Brown", "Red"],
+    "SkinColor": ["Fair", "Tan"]
+    },
+    {
+    "Race": "Centaur",
+    "Height": [
+    {"Type": "Short", "MinHeight": 7.5, "MaxHeight": 8.1},
+    {"Type": "Average", "MinHeight": 8.2, "MaxHeight": 8.8},
+    {"Type": "Tall", "MinHeight": 8.9, "MaxHeight": 9.5}
+    ],
+    "Weight": ["Muscular", "Solid"],
+    "HairColor": ["Brown", "Black", "Chestnut"],
+    "EyeColor": ["Brown", "Hazel"],
+    "SkinColor": ["Fair", "Tan"]
+    },
+    {
+    "Race": "Changeling",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.0, "MaxHeight": 5.6},
+    {"Type": "Average", "MinHeight": 5.7, "MaxHeight": 6.3},
+    {"Type": "Tall", "MinHeight": 6.4, "MaxHeight": 7.0}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Black", "Brown", "Blonde", "Red"],
+    "EyeColor": ["Blue", "Green", "Brown", "Hazel"],
+    "SkinColor": ["Fair", "Pale"]
+    },
+    {
+    "Race": "Kalashtar",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.4, "MaxHeight": 6.0},
+    {"Type": "Average", "MinHeight": 6.1, "MaxHeight": 6.7},
+    {"Type": "Tall", "MinHeight": 6.8, "MaxHeight": 7.4}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Black", "Brown", "Blonde"],
+    "EyeColor": ["Blue", "Green", "Hazel"],
+    "SkinColor": ["Fair", "Pale"]
+    },
+    {
+    "Race": "Shifter",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.2, "MaxHeight": 5.8},
+    {"Type": "Average", "MinHeight": 5.9, "MaxHeight": 6.5},
+    {"Type": "Tall", "MinHeight": 6.6, "MaxHeight": 7.2}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Black", "Brown", "Blonde", "Red"],
+    "EyeColor": ["Blue", "Green", "Brown", "Hazel"],
+    "SkinColor": ["Fair", "Tan"]
+    },
+    {
+    "Race": "Warforged",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.5, "MaxHeight": 6.1},
+    {"Type": "Average", "MinHeight": 6.2, "MaxHeight": 6.8},
+    {"Type": "Tall", "MinHeight": 6.9, "MaxHeight": 7.5}
+    ],
+    "Weight": ["Heavy", "Solid"],
+    "HairColor": ["None"],
+    "EyeColor": ["Blue", "Red", "Green"],
+    "SkinColor": ["Metallic: Steel", "Metallic: Bronze", "Metallic: Copper"]
+    },
+    {
+    "Race": "Gith",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.2},
+    {"Type": "Average", "MinHeight": 6.3, "MaxHeight": 6.9},
+    {"Type": "Tall", "MinHeight": 7.0, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Black", "Brown"],
+    "EyeColor": ["Red", "Green", "Blue"],
+    "SkinColor": ["Gray", "Pale"]
+    },
+    {
+    "Race": "Leonin",
+    "Height": [
+    {"Type": "Short", "MinHeight": 6.0, "MaxHeight": 6.6},
+    {"Type": "Average", "MinHeight": 6.7, "MaxHeight": 7.3},
+    {"Type": "Tall", "MinHeight": 7.4, "MaxHeight": 8.0}
+    ],
+    "Weight": ["Muscular", "Solid"],
+    "HairColor": ["Golden", "Sandy", "Brown"],
+    "EyeColor": ["Amber", "Yellow", "Green"],
+    "SkinColor": ["Tan", "Sandy"]
+    },
+    {
+    "Race": "Loxodon",
+    "Height": [
+    {"Type": "Short", "MinHeight": 6.8, "MaxHeight": 7.4},
+    {"Type": "Average", "MinHeight": 7.5, "MaxHeight": 8.1},
+    {"Type": "Tall", "MinHeight": 8.2, "MaxHeight": 8.8}
+    ],
+    "Weight": ["Heavy", "Solid"],
+    "HairColor": ["None"],
+    "EyeColor": ["Black", "Brown", "Blue"],
+    "SkinColor": ["Gray", "Pale"]
+    },
+    {
+    "Race": "Simic Hybrid",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.2},
+    {"Type": "Average", "MinHeight": 6.3, "MaxHeight": 6.9},
+    {"Type": "Tall", "MinHeight": 7.0, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Green", "Blue", "Brown"],
+    "EyeColor": ["Green", "Blue"],
+    "SkinColor": ["Green", "Blue"]
+    },
+    {
+    "Race": "Vedalken",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.2},
+    {"Type": "Average", "MinHeight": 6.3, "MaxHeight": 6.9},
+    {"Type": "Tall", "MinHeight": 7.0, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Blue", "Silver"],
+    "EyeColor": ["Blue"],
+    "SkinColor": ["Pale", "Blue"]
+    },
+    {
+    "Race": "Viashino",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.5, "MaxHeight": 6.1},
+    {"Type": "Average", "MinHeight": 6.2, "MaxHeight": 6.8},
+    {"Type": "Tall", "MinHeight": 6.9, "MaxHeight": 7.5}
+    ],
+    "Weight": ["Lean", "Muscular"],
+    "HairColor": ["None"],
+    "EyeColor": ["Red", "Yellow", "Orange"],
+    "SkinColor": ["Green", "Brown"]
+    },
+    {
+    "Race": "Changeling",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.0, "MaxHeight": 5.6},
+    {"Type": "Average", "MinHeight": 5.7, "MaxHeight": 6.3},
+    {"Type": "Tall", "MinHeight": 6.4, "MaxHeight": 7.0}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Black", "Brown", "Blonde", "Red"],
+    "EyeColor": ["Blue", "Green", "Brown", "Hazel"],
+    "SkinColor": ["Fair", "Pale"]
+    },
+    {
+    "Race": "Shardmind",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.2, "MaxHeight": 5.8},
+    {"Type": "Average", "MinHeight": 5.9, "MaxHeight": 6.5},
+    {"Type": "Tall", "MinHeight": 6.6, "MaxHeight": 7.2}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["None"],
+    "EyeColor": ["Crystalline: Blue", "Crystalline: Green", "Crystalline: Amber"],
+    "SkinColor": ["Crystalline: White", "Crystalline: Gray", "Crystalline: Silver"]
+    },
+    {
+    "Race": "Deva",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.4, "MaxHeight": 6.0},
+    {"Type": "Average", "MinHeight": 6.1, "MaxHeight": 6.7},
+    {"Type": "Tall", "MinHeight": 6.8, "MaxHeight": 7.4}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["White", "Silver", "Golden"],
+    "EyeColor": ["Blue", "Green", "Amber"],
+    "SkinColor": ["Fair", "Pale", "Golden"]
+    },
+    {
+    "Race": "Gnoll",
+    "Height": [
+    {"Type": "Short", "MinHeight": 6.0, "MaxHeight": 6.6},
+    {"Type": "Average", "MinHeight": 6.7, "MaxHeight": 7.3},
+    {"Type": "Tall", "MinHeight": 7.4, "MaxHeight": 8.0}
+    ],
+    "Weight": ["Muscular", "Solid"],
+    "HairColor": ["Brown", "Black"],
+    "EyeColor": ["Red", "Yellow"],
+    "SkinColor": ["Tan", "Dark brown"]
+    },
+    {
+    "Race": "Kor",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.0, "MaxHeight": 5.6},
+    {"Type": "Average", "MinHeight": 5.7, "MaxHeight": 6.3},
+    {"Type": "Tall", "MinHeight": 6.4, "MaxHeight": 7.0}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Black", "Brown", "Blonde"],
+    "EyeColor": ["Brown", "Green", "Blue"],
+    "SkinColor": ["Fair", "Pale"]
+    },
+    {
+    "Race": "Satyr",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.5, "MaxHeight": 5.1},
+    {"Type": "Average", "MinHeight": 5.2, "MaxHeight": 5.8},
+    {"Type": "Tall", "MinHeight": 5.9, "MaxHeight": 6.5}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["Brown", "Red", "Blonde"],
+    "EyeColor": ["Brown", "Hazel"],
+    "SkinColor": ["Fair", "Light tan"]
+    },
+    {
+    "Race": "Shadar-kai",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.2},
+    {"Type": "Average", "MinHeight": 6.3, "MaxHeight": 6.9},
+    {"Type": "Tall", "MinHeight": 7.0, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Black", "Silver"],
+    "EyeColor": ["Gray", "White"],
+    "SkinColor": ["Pale", "Ashen"]
+    },
+    {
+    "Race": "Thri-kreen",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.4, "MaxHeight": 6.0},
+    {"Type": "Average", "MinHeight": 6.1, "MaxHeight": 6.7},
+    {"Type": "Tall", "MinHeight": 6.8, "MaxHeight": 7.4}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["None"],
+    "EyeColor": ["Black", "Yellow", "Red"],
+    "SkinColor": ["Sandy brown", "Green"]
+    },
+    {
+    "Race": "Wilden",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.8, "MaxHeight": 6.4},
+    {"Type": "Average", "MinHeight": 6.5, "MaxHeight": 7.1},
+    {"Type": "Tall", "MinHeight": 7.2, "MaxHeight": 7.8}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["Green", "Brown"],
+    "EyeColor": ["Green", "Blue"],
+    "SkinColor": ["Bark-like: Brown", "Bark-like: Green"]
+    },
+    {
+    "Race": "Revenant",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.5, "MaxHeight": 6.1},
+    {"Type": "Average", "MinHeight": 6.2, "MaxHeight": 6.8},
+    {"Type": "Tall", "MinHeight": 6.9, "MaxHeight": 7.5}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Pale", "Gray", "White"],
+    "EyeColor": ["Glowing: Blue", "Glowing: Red"],
+    "SkinColor": ["Pale", "Gray"]
+    },
+    {
+    "Race": "Githzerai",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.4, "MaxHeight": 6.0},
+    {"Type": "Average", "MinHeight": 6.1, "MaxHeight": 6.7},
+    {"Type": "Tall", "MinHeight": 6.8, "MaxHeight": 7.4}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Black", "Brown"],
+    "EyeColor": ["Silver", "Blue", "Green"],
+    "SkinColor": ["Pale", "Gray", "Blue"]
+    },
+    {
+    "Race": "Githyanki",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.2},
+    {"Type": "Average", "MinHeight": 6.3, "MaxHeight": 6.9},
+    {"Type": "Tall", "MinHeight": 7.0, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Lean", "Muscular"],
+    "HairColor": ["Silver", "Black"],
+    "EyeColor": ["Red", "Green"],
+    "SkinColor": ["Pale", "Gray"]
+    },
+    {
+    "Race": "Eladrin",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.2},
+    {"Type": "Average", "MinHeight": 6.3, "MaxHeight": 6.9},
+    {"Type": "Tall", "MinHeight": 7.0, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Slender", "Lean"],
+    "HairColor": ["Golden", "Silver", "Red", "Brown"],
+    "EyeColor": ["Green", "Blue", "Gray"],
+    "SkinColor": ["Pale", "Fair"]
+    },
+    {
+    "Race": "Deep Gnome",
+    "Height": [
+    {"Type": "Short", "MinHeight": 3.0, "MaxHeight": 3.6},
+    {"Type": "Average", "MinHeight": 3.7, "MaxHeight": 4.3},
+    {"Type": "Tall", "MinHeight": 4.4, "MaxHeight": 5.0}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["Black", "Brown"],
+    "EyeColor": ["Black", "Brown"],
+    "SkinColor": ["Gray", "Dark gray"]
+    },
+    {
+    "Race": "Duergar",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.5, "MaxHeight": 5.1},
+    {"Type": "Average", "MinHeight": 5.2, "MaxHeight": 5.8},
+    {"Type": "Tall", "MinHeight": 5.9, "MaxHeight": 6.5}
+    ],
+    "Weight": ["Muscular", "Solid"],
+    "HairColor": ["Black", "Gray"],
+    "EyeColor": ["Red", "Purple"],
+    "SkinColor": ["Gray", "Pale"]
+    },
+    {
+    "Race": "Sea Elf",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.8, "MaxHeight": 5.4},
+    {"Type": "Average", "MinHeight": 5.5, "MaxHeight": 6.1},
+    {"Type": "Tall", "MinHeight": 6.2, "MaxHeight": 6.8}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Green", "Blue", "Turquoise"],
+    "EyeColor": ["Blue", "Green"],
+    "SkinColor": ["Blue", "Green"]
+    },
+    {
+    "Race": "Shadar-kai",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.2},
+    {"Type": "Average", "MinHeight": 6.3, "MaxHeight": 6.9},
+    {"Type": "Tall", "MinHeight": 7.0, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Lean", "Average"],
+    "HairColor": ["Black", "Silver"],
+    "EyeColor": ["Gray", "White"],
+    "SkinColor": ["Pale", "Ashen"]
+    },
+    {
+    "Race": "Aetherborn",
+    "Height": [
+    {"Type": "Short", "MinHeight": 4.8, "MaxHeight": 5.4},
+    {"Type": "Average", "MinHeight": 5.5, "MaxHeight": 6.1},
+    {"Type": "Tall", "MinHeight": 6.2, "MaxHeight": 6.8}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["None"],
+    "EyeColor": ["Glowing: Blue", "Glowing: Red"],
+    "SkinColor": ["Pale", "Gray"]
+    },
+    {
+    "Race": "Locathah",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.2},
+    {"Type": "Average", "MinHeight": 6.3, "MaxHeight": 6.9},
+    {"Type": "Tall", "MinHeight": 7.0, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Light", "Average"],
+    "HairColor": ["None"],
+    "EyeColor": ["Black", "Blue"],
+    "SkinColor": ["Gray", "Blue"]
+    },
+    {
+    "Race": "Orc of Exandria",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.2},
+    {"Type": "Average", "MinHeight": 6.3, "MaxHeight": 6.9},
+    {"Type": "Tall", "MinHeight": 7.0, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Muscular", "Solid"],
+    "HairColor": ["Black", "Brown", "Gray"],
+    "EyeColor": ["Red", "Brown"],
+    "SkinColor": ["Green", "Gray"]
+    },
+    {
+    "Race": "Orc of Eberron",
+    "Height": [
+    {"Type": "Short", "MinHeight": 5.6, "MaxHeight": 6.2},
+    {"Type": "Average", "MinHeight": 6.3, "MaxHeight": 6.9},
+    {"Type": "Tall", "MinHeight": 7.0, "MaxHeight": 7.6}
+    ],
+    "Weight": ["Muscular", "Solid"],
+    "HairColor": ["Black", "Brown"],
+    "EyeColor": ["Red", "Brown"],
+    "SkinColor": ["Green", "Gray"]
+    }
+]
+      
+      
+      
+  
+  

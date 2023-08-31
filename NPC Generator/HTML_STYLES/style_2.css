@@ -1,0 +1,51 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+/* Set background and font styles */
+body {
+    background-color: #f7f7f7;
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style the heading */
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    text-align: center;
+    padding: 40px;
+    text-transform: uppercase;
+}
+
+/* Style the paragraph and link */
+p {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}

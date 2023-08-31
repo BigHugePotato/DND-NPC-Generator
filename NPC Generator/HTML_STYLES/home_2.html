@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to our DND Site</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to our DND Site!</h1>
+        </header>
+
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/shop">Shop</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/info">Info</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main>
+            <p><a href="/npc_generator">Go to NPC Generator</a></p>
+        </main>
+    </div>
+</body>
+</html>
